@@ -5,7 +5,7 @@ export GLUE_DIR=../GLUE/glue_data
 
 python run_classifier.py \
   --task_name=MRPC \
-  --do_train=false \
+  --do_train=true \
   --do_eval=true \
   --data_dir=$GLUE_DIR/MRPC \
   --vocab_file=$BERT_BASE_DIR/vocab.txt \
